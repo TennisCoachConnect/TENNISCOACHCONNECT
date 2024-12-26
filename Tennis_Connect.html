@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Connect</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #1e90ff;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1e90ff;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+        .profile {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .profile-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            width: calc(33.333% - 1rem);
+        }
+        .profile-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .profile-card h3 {
+            margin: 0.5rem 0;
+        }
+        .profile-card p {
+            color: #555;
+        }
+        .profile-card button {
+            background-color: #1e90ff;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tennis Connect</h1>
+        <p>Finde deinen perfekten Tennis-Trainer!</p>
+    </header>
+    <nav>
+        <a href="#trainers">Trainer</a>
+        <a href="#about">Über uns</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+    <div class="container">
+        <section id="trainers">
+            <h2>Unsere Trainer</h2>
+            <div class="profile">
+                <div class="profile-card">
+                    <img src="trainer1.jpg" alt="Trainer 1">
+                    <h3>Max Muster</h3>
+                    <p>Standort: Berlin<br>Erfahrung: 10 Jahre<br>Preis: 50€/h</p>
+                    <button>Buchen</button>
+                </div>
+                <div class="profile-card">
+                    <img src="trainer2.jpg" alt="Trainer 2">
+                    <h3>Sophie Schläger</h3>
+                    <p>Standort: München<br>Erfahrung: 8 Jahre<br>Preis: 45€/h</p>
+                    <button>Buchen</button>
+                </div>
+                <div class="profile-card">
+                    <img src="trainer3.jpg" alt="Trainer 3">
+                    <h3>Alex Aufschlag</h3>
+                    <p>Standort: Hamburg<br>Erfahrung: 5 Jahre<br>Preis: 40€/h</p>
+                    <button>Buchen</button>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>Über uns</h2>
+            <p>Tennis Connect ist die Plattform, die Tennis-Trainer und Trainierende zusammenbringt. Egal, ob du Anfänger oder Profi bist, wir helfen dir, den passenden Trainer zu finden.</p>
+        </section>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Fragen? Schreib uns an: <a href="mailto:info@tennisconnect.com">info@tennisconnect.com</a></p>
+        </section>
+    </div>
+    <footer>
+        <p style="text-align: center; padding: 1rem;">&copy; 2024 Tennis Connect</p>
+    </footer>
+</body>
+</html>
